@@ -3,8 +3,8 @@ from pathlib import Path
 
 from ..utils.base_model import BaseModel
 
-sys.path.append(str(Path(__file__).parent / "../../third_party"))
-from SuperGluePretrainedNetwork.models.superglue import SuperGlue as SG  # noqa: E402
+# sys.path.append(str(Path(__file__).parent / "../../third_party"))
+from supergluepretrainednetwork.models.superglue import SuperGlue as SG  # noqa: E402
 
 
 class SuperGlue(BaseModel):
